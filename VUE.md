@@ -1,0 +1,1 @@
+﻿*    **快速原型开发 编译 .vue文件**```jsnpm install -g @vue/cli-service-global   //独立开发组件编译环境```*    **如果仍然需要使用旧版本的VUE init 功能**```jsnpm install -g @vue/cli-service-init  //拉取旧版本```* **插件**> `vetur`

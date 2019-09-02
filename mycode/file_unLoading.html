@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>file multiple</title>
+    </head>
+    <body>
+        <input type="file" multiple="multiple" id="test">
+        <p id='content'></p>
+        <script type="text/javascript">
+        
+                var reader = new FileReader()
+                
+            var test = document.getElementById('test');
+            test.addEventListener('change', function() {
+                var t_files = this.files;
+                var str = '';
+                console.log(reader)
+                console.log(t_files)
+                for(var i = 0, len = t_files.length; i < len; i++) {
+                    console.log(t_files[i]);
+                    str += '<a href="javascript:void(0)">' + t_files[i].name + '</a><br/>';
+                };
+                document.getElementById('content').innerHTML = str;
+            }, false);
+        </script>
+    </body>
+</html>
