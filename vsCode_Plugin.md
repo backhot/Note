@@ -32,4 +32,6 @@
 ## Color Highlight  
 >直观显示在 css/web 中定义的颜色
 
+## SonarLint
+> 使用esLint后也可以愉快的开发了
 
