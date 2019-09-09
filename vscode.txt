@@ -1,0 +1,3 @@
+ Bracket Pair Colorizer  成对的彩色括号
+
+Color Highlight  直观显示在 css/web 中定义的颜色

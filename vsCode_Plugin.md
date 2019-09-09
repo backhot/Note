@@ -1,6 +1,8 @@
 ﻿﻿
-# 超级强大的 Markdown 插件
->markdown Previw Enhanced
+# markdown Previw Enhanced
+
+>超级强大的 Markdown 插件
+
 中文文档：https://shd101wyy.~~~~github.io/markdown-preview-enhanced/#/zh-cn/
 
 * 自动编辑器及预览滑动同步
@@ -24,5 +26,10 @@
 * 脚注
 * Front Matter
 
+##  Bracket Pair Colorizer 
+>成对的彩色括号
+
+## Color Highlight  
+>直观显示在 css/web 中定义的颜色
 
 
