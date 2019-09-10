@@ -1,0 +1,31 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "window.zoomLevel": -1,
+  "files.autoSave": "onFocusChange",
+  "prettier.singleQuote": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  // "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "prettier.semi": false,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false, // 格式化不加分号
+      "singleQuote": true // 格式化以单引号为主
+    }
+  },
+  "[html]": {},
+  "eslint.autoFixOnSave": true,
+  "[vue]": {},
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "javascriptvue",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ]
+}
